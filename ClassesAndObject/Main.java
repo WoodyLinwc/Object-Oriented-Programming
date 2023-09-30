@@ -22,6 +22,8 @@ public class Main {
 
         Tree.annouceTree();
 
+        System.out.println(myTree.treeType);
+
         System.out.println(myTrunkColor);
         System.out.println(myDefaultBlue);
         System.out.println(darkerBlue);
