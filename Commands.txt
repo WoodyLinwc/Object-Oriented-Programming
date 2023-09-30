@@ -1,4 +1,7 @@
-
+ClassesAndObjects:
 woodylin@Woodys-MacBook-Air Object-Oriented-Programming % javac -d out ClassesAndObject/*.java
-
 woodylin@Woodys-MacBook-Air Object-Oriented-Programming % java -cp out ClassesAndObject.Main
+
+Encapsulation:
+javac -d out Encapsulation/*.java
+java -cp out Encapsulation.Main
