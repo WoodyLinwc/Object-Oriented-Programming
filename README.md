@@ -8,6 +8,6 @@
 
 ## 4. Polymorphism in Java
 
-## 5. Abstarction in Java
+## 5. Abstraction in Java
 
 
