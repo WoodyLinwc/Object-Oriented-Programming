@@ -5,3 +5,7 @@ woodylin@Woodys-MacBook-Air Object-Oriented-Programming % java -cp out ClassesAn
 Encapsulation:
 javac -d out Encapsulation/*.java
 java -cp out Encapsulation.Main
+
+Inheritance:
+javac -d out Inheritance/*.java
+java -cp out Inheritance.Main
