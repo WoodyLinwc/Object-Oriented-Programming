@@ -9,3 +9,7 @@ java -cp out Encapsulation.Main
 Inheritance:
 javac -d out Inheritance/*.java
 java -cp out Inheritance.Main
+
+Polymorphism:
+javac -d out Polymorphism/*.java
+java -cp out Polymorphism.Main
