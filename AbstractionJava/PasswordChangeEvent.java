@@ -1,4 +1,5 @@
-// import java.sql.Timestamp;
+package AbstractionJava;
+
 
 // logic regarding any event lives in the abstract class, while logic regarding the 
 // specific event lives the appropriate class
@@ -21,6 +22,7 @@ public class PasswordChangeEvent extends AbstractEvent{
 //     }
 
 
+//     Doesn't need to write again because AbstractEvent already has it
 //     @Override
 //     public Long getTimeStamp() {
 //         return this.createdTimestamp;

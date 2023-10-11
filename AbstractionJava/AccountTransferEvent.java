@@ -1,11 +1,12 @@
+package AbstractionJava;
 import java.sql.Timestamp;
 
-public class MissedPaymentEvent implements Event {
+public class AccountTransferEvent implements Event {
 
     private Long createdTimestamp;
     private String id;
 
-    public MissedPaymentEvent(String id) {
+    public AccountTransferEvent(String id) {
         this.createdTimestamp = new Timestamp(System
                 .currentTimeMillis()).getTime();
         this.id = id;
@@ -18,7 +19,9 @@ public class MissedPaymentEvent implements Event {
 
     @Override
     public void process() {
-        System.out.println("Customer " + id + " missed their payment."+
-                "Sending a bill to the customer.");
+        System.out.println("Customer " + id + " needs to transfer " +
+                "their service. Reaching out to CTE to remove " +
+                "service form old device and add service to " +
+                "new device");
     }
 }

@@ -1,4 +1,4 @@
-package Abstraction;
+package AbstractionJava;
 import java.sql.Timestamp;
 
 public abstract class AbstractEvent implements Event {
@@ -19,4 +19,3 @@ public abstract class AbstractEvent implements Event {
 
     public abstract void process();
 }
-
