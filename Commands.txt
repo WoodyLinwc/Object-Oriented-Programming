@@ -15,5 +15,5 @@ javac -d out Polymorphism/*.java
 java -cp out Polymorphism.Main
 
 Abstraction:
-javac -d out Abstraction/*.java
-java -cp out Abstraction.Main
+javac -d out AbstractionJava/*.java
+java -cp out AbstractionJava.Main
