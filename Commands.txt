@@ -13,3 +13,7 @@ java -cp out Inheritance.Main
 Polymorphism:
 javac -d out Polymorphism/*.java
 java -cp out Polymorphism.Main
+
+Abstraction:
+javac -d out Abstraction/*.java
+java -cp out Abstraction.Main
